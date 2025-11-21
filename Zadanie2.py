@@ -1,6 +1,6 @@
 # Zapytaj użytkownika o nazwisko
 
-name = input("What is your name?: ")
+surname = input("What is your surname?: ")
 
 # Zapytaj użytkownika o wiek
 age = input("How old are you?: ")
@@ -17,7 +17,7 @@ interest = input("What are you interested in?: ")
 
 string = "Hi {}, you are {} years old. You live in {} and you love {}!"
 
-output = string.format(name,age,city,interest)
+output = string.format(surname,age,city,interest)
 
 # Wydrukuj tekst wyjściowy
 
