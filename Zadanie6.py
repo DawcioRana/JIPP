@@ -38,8 +38,8 @@ if op not in ["a", "b", "c", "d"]:
     print("Invalid operation selected.")
 
 else:
-    numb1 = int(input("Enter first number: "))
-    numb2 = int(input("Enter second number: "))
+    numb1 = int(round(float(input("Enter first number: "))))
+    numb2 = int(round(float(input("Enter second number: "))))
 
     if op == "a":
         print("Result:", add(numb1, numb2))
